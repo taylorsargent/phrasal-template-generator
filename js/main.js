@@ -1,30 +1,25 @@
 var makeStory = alert('Lets make a story together!');
 
-var newStory2 = prompt('A colour (orange, indigo,etc.)');
+var colour = prompt('A colour (orange, indigo,etc.)');
 
+var creature = prompt('A creature (dragon, moth, etc.)');
 
-var newStory3 = prompt('A creature (dragon, moth, etc.)');
+var adjective = prompt('An adjective (beautiful, super, etc.)');
 
+var verb = prompt('A past tense verb (ran, burped, etc.)');
 
-var newStory4 = prompt('An adjective (beautiful, super, etc.)');
-
-
-
-var newStory5 = prompt('A past tense verb (ran, burped, etc.)');
+var story = prompt('Which story would you like? \n a.) Snacking \n b.) Escaping \n c.) Winning \n Enter the letter below:');
 
 
 
-var newStory6 = prompt('Which story would you like?');
-
-
-if (newStory6 == 'Snacking') {
-  document.write('After snacking on (newStory4) treats, the (newStory2) bellied (newStory3) (newStory5) for hours');
+if (story == 'a') {
+  document.write('After snacking on ' + adjective + ' treats, the ' + colour + ' bellied' + creature + ' ' + verb + ' for hours');
 }
 
-if (newStory6 == 'Escaping') {
-  document.write('After escaping on (newStory4) treats, the (newStory2) bellied (newStory3) (newStory5) for hours');
+if (story == 'b') {
+  document.write('Ameilia ' + verb + ' through the ' + adjective + ' ' + colour + ' nebula escaping the space ' + creature + '.');
 }
 
-if (newStory6 == 'Winning') {
-  document.write('After winning on (newStory4) treats, the (newStory2) bellied (newStory3) (newStory5) for hours');
+if (story == 'c') {
+  document.write('Jackson chose his ' + adjective + ', ' + colour + ' ' + creature + ' card and ' + verb + ' it to the table knowing he won.');
 }
